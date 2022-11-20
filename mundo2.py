@@ -73,14 +73,23 @@ os.system('cls')
 #         count += 1
 # print(sum, count)
 
-num = int(input('Digite um número: '))
-count = 0
-for x in range(1, num +1):
-    if num % x == 0:
-        count += 1
-if count == 2:
-    print('\033[33m {} \033[m é primo'.format(x))
-elif count > 2:
-    print('não é primo')
+# num = int(input('Digite um número: '))
+# count = 0
+# for x in range(1, num +1):
+#     if num % x == 0:
+#         count += 1
+# if count == 2:
+#     print('\033[33m {} \033[m é primo'.format(x))
+# elif count > 2:
+#     print('não é primo')
+
+palavra = input('Digite uma palavra: ').upper().strip()
+
+if palavra == palavra[::-1]:
+    print('é um palindromo')
+else:
+    print('não é um palindromo')
+
+
 
 
