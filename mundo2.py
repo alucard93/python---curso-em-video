@@ -1,3 +1,5 @@
+import os
+os.system('cls')
 # num = int(input('Digite um número inteiro: '))
 # print('''Escolha uma das bases para conversão: 
 # [ 1 ] converter para BINÁRIO
@@ -70,3 +72,15 @@
 #         sum += x
 #         count += 1
 # print(sum, count)
+
+num = int(input('Digite um número: '))
+count = 0
+for x in range(1, num +1):
+    if num % x == 0:
+        count += 1
+if count == 2:
+    print('\033[33m {} \033[m é primo'.format(x))
+elif count > 2:
+    print('não é primo')
+
+
