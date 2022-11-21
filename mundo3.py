@@ -16,11 +16,18 @@ x = ('arroz', 'feijão', 'queijo')
 # print(sorted(x))
 
 # somar tuplas realiza concatenação
-a = (2, 3, 4, 5)
-b = (4, 3, 6, 15)
-c = a + b
+a = [2, 3, 4, 5]
+# b = (4, 3, 6, 15)
+# c = a + b
 # print(c) 
 # print(c.index(6)) 
 # print(len(c))
 
+# nomes = ('zero', 'um', 'dois', 'tres', 'quarto', 'cinco')
+# while True:
+#     num = int(input())
+#     if 0 <= num <= 5:
+#         break
+#     print('Tente novamente')
+# print('VocÊ digitou o número {}'.format(nomes[num]))
 
